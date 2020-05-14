@@ -1,15 +1,18 @@
 
-What is it? A quick and convenient way to launch a MERN project. 
+What is it? A CLI that offer a quick and convenient way to launch a MERN project.
 
+This is a work in progress, though it functions well for simple projects.
 
-This is a work in progress, though functions well for simple projects.
+Create an 
+
 
 How to use it:
 - clone the repo into your root folder (git@github.com:John-W-Stevens/feel-the-mern.git)
 - add the lines below to your .zshrc file (make sure to save and the run: source ~/.zshrc)
 	- You need ttab for this to launch (npm install -g ttab)
-- in your terminal run: feel-the-mern
-
+	- This will not work properly unless you have python3 and mongodb installed
+- create an empty project directory and cd into it
+- once inside your project directory run: feel-the-mern
 
 setup-server(){
 	git init
