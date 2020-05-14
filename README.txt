@@ -5,7 +5,7 @@ This is a work in progress, though it functions well for simple projects.
 
 How to use it:
 - clone the repo into your root folder (git@github.com:John-W-Stevens/feel-the-mern.git)
-- add the lines below to your .zshrc file (make sure to save and the run: source ~/.zshrc)
+- add the lines below to your .zshrc file (make sure to save and then run: source ~/.zshrc)
 	- You need ttab for this to launch (npm install -g ttab)
 	- This will not work properly unless you have python3 and mongodb installed
 - create an empty project directory and cd into it
