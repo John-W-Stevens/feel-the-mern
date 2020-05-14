@@ -37,8 +37,6 @@ setup-server(){
 	rm -rf helpers.py
 	rm -rf master.py
 	rm -rf mongoose_config.py
-	code .
-	nodemon server.js
 }
 setup-client(){
 	npx create-react-app client
