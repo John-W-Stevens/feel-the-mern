@@ -11,6 +11,8 @@ How to use it:
 - create an empty project directory and cd into it
 - once inside your project directory run: feel-the-mern
 
+##### ADD EVERYTHING BELOW TO YOUR ./zshrc FILE #######
+
 setup-server(){
 	git init
 	npm init -y
