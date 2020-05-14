@@ -1,10 +1,7 @@
 
-What is it? A CLI that offer a quick and convenient way to launch a MERN project.
+What is it? A CLI that offers a quick and convenient way to launch a MERN project.
 
 This is a work in progress, though it functions well for simple projects.
-
-Create an 
-
 
 How to use it:
 - clone the repo into your root folder (git@github.com:John-W-Stevens/feel-the-mern.git)
