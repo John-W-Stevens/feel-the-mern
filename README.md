@@ -1,7 +1,7 @@
 Feel the MERN (FTM) - A CLI for quickly launching a MERN project
 
 Quickstart:
-- FTM requires Python3, ttab, nodemon, and Mongodb to be installed
+- FTM requires Python3, ttab, node, nodemon, and Mongodb to be installed
 - clone the repo into your root folder (git@github.com:John-W-Stevens/feel-the-mern.git) (Read below if you want to put it somewhere else)
 - Add all three zsh functions below to your ~/.zshrc file (assuming you are using zsh, otherwise add them to your bash profile)
 - Create an empty project directory and navigate into it
@@ -40,6 +40,7 @@ At this point, FTM launches the server by running: { nodemon server.js } in a ne
 Requirments for running this program:
 - Python3: (all the underlying scripts are written in Python3 and FTM will call Python3 to run them)
 - ttab: (necessary to launch server and client at the end, install with { npm install -g ttab } )
+- nodemon: (necessary to launch server at the end, install with { npm install -g nodemon } )
 - zsh: I use macOS and, after switching to Catalina 10.15.4, have zsh as my default shell. I think all the commands can be run with bash as well
   so you should be able to added them to your bash profile. The following functions are saved in my ~/.zshrc file:
 
