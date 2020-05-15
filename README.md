@@ -1,7 +1,7 @@
 Feel the MERN (FTM) - A CLI for quickly launching a MERN project
 
 Quickstart:
-- FTM requires Python3, ttab, and Mongodb to be installed
+- FTM requires Python3, ttab, nodemon, and Mongodb to be installed
 - clone the repo into your root folder (git@github.com:John-W-Stevens/feel-the-mern.git) (Read below if you want to put it somewhere else)
 - Add all three zsh functions below to your ~/.zshrc file (assuming you are using zsh, otherwise add them to your bash profile)
 - Create an empty project directory and navigate into it
@@ -11,8 +11,8 @@ What is it? FTM is bascially a collection of zsh commands wrapped in a single fu
 that, when invoked, walks the user through the intial setup of a MERN application. From the
 command line a user can create an instance of Mongodb, and customize it by adding documents 
 with full CRUD functionality. Users can create as many documents as they wish and customize them 
-by adding attributes and validations. Currently, only the mongoose 'String' and 'Number' SchemaTypes
-support the use of built-in validations.
+by adding attributes and validations. Currently, FTM only supports the use of built-in validations for 
+the mongoose 'String' and 'Number' SchemaTypes.
 
 After server-side configuration is completed the following file structure is the result:
 
@@ -70,6 +70,7 @@ Requirments for running this program:
 		rm -rf master.py
 		rm -rf mongoose_config.py
 	}
+	
 	setup-client(){
 		npx create-react-app client
 		npm --prefix ./client install axios @reach/router
@@ -92,11 +93,11 @@ Requirments for running this program:
 		npm run start
 	}
 
-##### THE FUNCTIONS ABOVE NEED TO BE ADDED TO ./zshrc
-
 After adding these functions, run: { source ~/.zshrc } (or the equivilent for bash)
 
 As you can see from the zsh functions, FTM will look for scripts in ~/feel-the-mern
 I put them there so I can use them every time I start a project. You can of course put these files wherever you want
-provided you change the paths in the zsh functions.
+provided you change the paths in the zsh functions. 
+
+This is a work in progress!
 
