@@ -110,7 +110,7 @@ def build_attribute():
     }
 
     string_validators = ["lowercase", "uppercase", "trim", "enum", "match", "minlength", "maxlength"]
-    number_validators = ["min", "max", "enum"]
+    number_validators = ["min", "max"]
 
     attribute = {
         "label": "",
