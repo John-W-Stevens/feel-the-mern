@@ -109,7 +109,7 @@ def build_attribute():
         "Map": "map"
     }
 
-    string_validators = ["lowercase", "uppercase", "trim", "enum", "match", "minLength", "maxLength"]
+    string_validators = ["lowercase", "uppercase", "trim", "enum", "match", "minlength", "maxlength"]
     number_validators = ["min", "max", "enum"]
 
     attribute = {
