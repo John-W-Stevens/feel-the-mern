@@ -46,10 +46,10 @@ def build_attribute():
             elif validator == "match":
                 arg = input("Please enter your regex: ")
             
-            elif validator == "minLength":
+            elif validator == "minlength":
                 arg = input("Please enter minimum length: ")
 
-            elif validator == "maxLength":
+            elif validator == "maxlength":
                 arg = input("Please enter maximum length: ")
 
             approval = input(f"Y/n - you entered {arg} as an argument for the {validator} validator. Save this? ")
